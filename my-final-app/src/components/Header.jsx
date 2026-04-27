@@ -1,11 +1,32 @@
-export default function Header({ title }) {
+import { useState } from "react";
+import { Link } from "react-router-dom";
+
+export default function Header() {
+  // STEP 1: Initialize State
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className="p-4 border-b bg-white mb-4">
-      <h1 className="text-2xl font-black text-gray-900">{title}</h1>
-      <div className="flex gap-4 mt-2">
-        <span className="text-blue-600 font-bold border-b-2 border-blue-600 pb-1 text-sm">Private</span>
-        <span className="text-gray-400 font-medium text-sm">Business</span>
+    <header className="bg-blue-600 p-4 text-white shadow-md">
+      <div className="max-w-6xl mx-auto flex justify-between items-center">
+        <h1 className="text-xl font-bold tracking-tighter">HEALTH-EQUITY</h1>
+
+        {/* STEP 2: The Trigger (onClick) */}
+        <button 
+          onClick={() => setIsOpen(!isOpen)} 
+          className="text-2xl focus:outline-none"
+        >
+          {isOpen ? "✕" : "☰"}
+        </button>
       </div>
-    </div>
+
+      {/* STEP 3: Conditional Rendering (The "Burger" Menu) */}
+      {isOpen && (
+        <nav className="mt-4 flex flex-col gap-4 border-t border-blue-500 pt-4 animate-fadeIn">
+          <Link to="/" onClick={() => setIsOpen(false)} className="hover:text-blue-200">Home</Link>
+          <Link to="/about" onClick={() => setIsOpen(false)} className="hover:text-blue-200">Team</Link>
+          <Link to="/profile" onClick={() => setIsOpen(false)} className="hover:text-blue-200">Profile</Link>
+        </nav>
+      )}
+    </header>
   );
 }
