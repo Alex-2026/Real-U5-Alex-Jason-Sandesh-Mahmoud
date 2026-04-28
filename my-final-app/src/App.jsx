@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
 import Help from "./pages/Help";
+import CommunityHealthNeeds from "./pages/CommunityHealthNeeds"; // Import the new page
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/help" element={<Help />} />
+            <Route path="/community-health-needs" element={<CommunityHealthNeeds />} />
           </Routes>
         </main>
 

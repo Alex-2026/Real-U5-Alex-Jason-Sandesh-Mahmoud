@@ -22,9 +22,18 @@ export default function Header() {
       {/* STEP 3: Conditional Rendering (The "Burger" Menu) */}
       {isOpen && (
         <nav className="mt-4 flex flex-col gap-4 border-t border-blue-500 pt-4 animate-fadeIn">
-          <Link to="/" onClick={() => setIsOpen(false)} className="hover:text-blue-200">Home</Link>
-          <Link to="/about" onClick={() => setIsOpen(false)} className="hover:text-blue-200">Team</Link>
-          <Link to="/profile" onClick={() => setIsOpen(false)} className="hover:text-blue-200">Profile</Link>
+          <Link to="/" onClick={() => setIsOpen(false)} className="hover:text-blue-200"> Home </Link>
+          <Link to="/about" onClick={() => setIsOpen(false)} className="hover:text-blue-200"> Team </Link>
+          <Link to="/profile" onClick={() => setIsOpen(false)} className="hover:text-blue-200"> Profile </Link>
+          
+          {/* NEW BUTTON ADDED HERE */}
+          <Link 
+            to="/community-health-needs" 
+            onClick={() => setIsOpen(false)} 
+            className="bg-white text-blue-600 px-4 py-2 rounded-md font-semibold text-center hover:bg-blue-100 transition-colors"
+          >
+            Community Health Needs
+          </Link>
         </nav>
       )}
     </header>
