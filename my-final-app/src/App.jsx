@@ -9,7 +9,7 @@ import Action from "./pages/Action";
 import Future from "./pages/Future";
 import FAQAccordion from "./pages/FAQAccordion";
 import Methodology from "./pages/Methodology";
-import DataSources from "./pages/DataSources";w 
+import DataSources from "./pages/DataSources";
 function App() {
   return (
     <BrowserRouter>

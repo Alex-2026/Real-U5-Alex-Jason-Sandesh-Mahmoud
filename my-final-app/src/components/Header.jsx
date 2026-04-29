@@ -73,7 +73,7 @@ export default function Header() {
           <Link 
             to="/DataSources" 
             onClick={() => setIsOpen(false)}
-            className="bg-white text-black-600 px-4 py-2 rounded-md font-semibold text-center hover:bg-purple-100 transition-colors"
+            className="bg-white text-orange-600 px-4 py-2 rounded-md font-semibold text-center hover:bg-purple-100 transition-colors"
           >
             Data Sources
           </Link>
