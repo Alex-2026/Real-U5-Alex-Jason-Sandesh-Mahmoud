@@ -60,7 +60,7 @@ export default function Header() {
             10-Year Future Outlook
           </Link>
        
-       <div className="my-2 border-t border-gold-200"></div>
+       <div className="my-2 border-t border-blue-200"></div>
           <Link 
             to="/Methodology" 
             onClick={() => setIsOpen(false)}
@@ -69,6 +69,14 @@ export default function Header() {
             Research Methodology
           </Link>
        
+       <div className="my-2 border-t border-blue-200"></div>
+          <Link 
+            to="/DataSources" 
+            onClick={() => setIsOpen(false)}
+            className="bg-white text-black-600 px-4 py-2 rounded-md font-semibold text-center hover:bg-purple-100 transition-colors"
+          >
+            Data Sources
+          </Link>
         </nav>
 
         

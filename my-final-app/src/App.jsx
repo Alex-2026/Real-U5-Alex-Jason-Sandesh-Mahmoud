@@ -8,7 +8,8 @@ import CommunityHealthNeeds from "./pages/CommunityHealthNeeds";
 import Action from "./pages/Action"; 
 import Future from "./pages/Future";
 import FAQAccordion from "./pages/FAQAccordion";
-import Methodology from "./pages/Methodology"; 
+import Methodology from "./pages/Methodology";
+import DataSources from "./pages/DataSources";w 
 function App() {
   return (
     <BrowserRouter>
@@ -30,6 +31,7 @@ function App() {
             <Route path="/future" element={<Future />} />
             <Route path="/FAQAccordion" element={<FAQAccordion />} />
             <Route path="/Methodology" element={<Methodology />} />
+            <Route path="/DataSources" element={<DataSources />} />
           </Routes>
         </main>
 
