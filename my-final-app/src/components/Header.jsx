@@ -48,9 +48,22 @@ export default function Header() {
           >
            FAQ Accordion
           </Link>
-          
-
-
+          <div className="my-2 border-t border-blue-200"></div>
+           <Link 
+            to="/Economics" 
+            onClick={() => setIsOpen(false)} 
+            className="bg-white text-pink-600 px-4 py-2 rounded-md font-semibold text-center hover:bg-green-100 transition-colors"
+          >
+           Economics
+          </Link>
+ <div className="my-2 border-t border-blue-200"></div>
+           <Link 
+            to="/Longevity" 
+            onClick={() => setIsOpen(false)} 
+            className="bg-white text-green-600 px-4 py-2 rounded-md font-semibold text-center hover:bg-green-100 transition-colors"
+          >
+           Longevity
+          </Link>
           <div className="my-2 border-t border-blue-200"></div>
           <Link 
             to="/future" 
@@ -59,7 +72,14 @@ export default function Header() {
           >
             10-Year Future Outlook
           </Link>
-       
+       <div className="my-2 border-t border-blue-200"></div>
+           <Link 
+            to="/Solutions" 
+            onClick={() => setIsOpen(false)} 
+            className="bg-white text-brown-600 px-4 py-2 rounded-md font-semibold text-center hover:bg-green-100 transition-colors"
+          >
+           Solutions
+          </Link>
        <div className="my-2 border-t border-blue-200"></div>
           <Link 
             to="/Methodology" 
@@ -78,6 +98,7 @@ export default function Header() {
             Data Sources
           </Link>
         </nav>
+        
 
         
       )}

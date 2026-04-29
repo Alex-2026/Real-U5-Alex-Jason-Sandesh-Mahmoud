@@ -10,6 +10,9 @@ import Future from "./pages/Future";
 import FAQAccordion from "./pages/FAQAccordion";
 import Methodology from "./pages/Methodology";
 import DataSources from "./pages/DataSources";
+import Economics from "./pages/Economics";
+import Longevity from "./pages/Longevity";
+import Solutions from "./pages/Solutions";
 function App() {
   return (
     <BrowserRouter>
@@ -32,6 +35,9 @@ function App() {
             <Route path="/FAQAccordion" element={<FAQAccordion />} />
             <Route path="/Methodology" element={<Methodology />} />
             <Route path="/DataSources" element={<DataSources />} />
+            <Route path="/Economics" element={<Economics />} />
+            <Route path="/longevity" element={<Longevity />} />
+            <Route path="/Solutions" element={<Solutions />} />
           </Routes>
         </main>
 
