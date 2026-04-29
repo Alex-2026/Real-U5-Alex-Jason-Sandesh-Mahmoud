@@ -4,8 +4,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
 import Help from "./pages/Help";
-import CommunityHealthNeeds from "./pages/CommunityHealthNeeds"; // Import the new page
-
+import CommunityHealthNeeds from "./pages/CommunityHealthNeeds"; 
+import Action from "./pages/Action"; 
+import Future from "./pages/Future";
 function App() {
   return (
     <BrowserRouter>
@@ -23,6 +24,8 @@ function App() {
             <Route path="/profile" element={<Profile />} />
             <Route path="/help" element={<Help />} />
             <Route path="/community-health-needs" element={<CommunityHealthNeeds />} />
+            <Route path="/action" element={<Action />} />
+            <Route path="/future" element={<Future />} />
           </Routes>
         </main>
 
