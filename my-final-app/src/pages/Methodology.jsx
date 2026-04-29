@@ -1,6 +1,5 @@
 import React from 'react';
-
-//  Placeholder since Jason hasn't finished ZipSim.jsx yet
+import ZipSim from '../components/ZipSim';
 const ZipSimPlaceholder = () => (
   <div className="p-8 bg-gray-100 border-2 border-dashed border-gray-300 rounded-2xl text-center">
     <p className="text-gray-500 font-medium italic">
@@ -47,7 +46,7 @@ export default function Methodology() {
             Use the tool below to see how regional funding disparities affect 
             predicted longevity in real-time.
           </p>
-          <ZipSimPlaceholder />
+         <ZipSim />
         </div>
       </div>
 
