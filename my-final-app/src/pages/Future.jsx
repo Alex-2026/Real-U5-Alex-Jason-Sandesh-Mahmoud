@@ -3,7 +3,7 @@ import React from 'react';
 export default function Future() {
   return (
     <div className="max-w-4xl mx-auto py-10 space-y-16">
-      {/* 10-Year Vision Header */}
+
       <section className="text-center">
         <h1 className="text-4xl font-black text-gray-900 mb-4 italic">
           2036: The Road to Equity
@@ -15,7 +15,7 @@ export default function Future() {
         </p>
       </section>
 
-      {/* The Projections Grid */}
+ 
       <div className="grid md:grid-cols-2 gap-8">
         <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
           <h3 className="text-xl font-bold text-gray-800 mb-3">Ending the "Symptom" Cycle</h3>
@@ -36,19 +36,18 @@ export default function Future() {
         </div>
       </div>
 
-      {/* Interactive Policy Outlook */}
       <section className="bg-gray-50 p-10 rounded-3xl border border-gray-200">
         <div className="mb-8 text-center">
           <h2 className="text-2xl font-bold italic">Future Policy Frameworks</h2>
           <p className="text-gray-500 text-sm">Select a focus area to see the 10-year strategy.</p>
         </div>
-        {/* <PolicySelector /> */}
+      
         <div className="text-center text-red-400 italic">
           (PolicySelector interactive coming soon!)
         </div>
       </section>
 
-      {/* Final Call to Action */}
+     
       <div className="bg-blue-600 rounded-2xl p-8 text-center text-white shadow-xl">
         <h3 className="text-2xl font-bold mb-2 text-white">The 2036 Roadmap</h3>
         <p className="mb-6 opacity-90 text-sm">Our project prioritizes lasting changes to how healthcare access is sustained.</p>
@@ -58,4 +57,4 @@ export default function Future() {
       </div>
     </div>
   );
-}
+}s

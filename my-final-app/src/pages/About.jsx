@@ -7,7 +7,7 @@ export default function About() {
       <div className="max-w-5xl mx-auto">
         <h1 className="text-4xl font-black text-center mb-12 text-gray-900 uppercase">Development Team</h1>
         
-        {/* Grid for Teammate Cards */}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           <ProfileCard 
             name="Alex" role="Team Lead" 

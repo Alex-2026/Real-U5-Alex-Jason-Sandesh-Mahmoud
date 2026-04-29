@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import SupportEndorsement from '../components/SupportEndorsement';
 
-// This is the individual row
 const FAQItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -32,7 +31,6 @@ const FAQItem = ({ question, answer }) => {
 };
 
 export default function FAQAccordion() {
-  // This is the data from your essay
   const healthEquityData = [
     {
       question: "Why is there a 20-year longevity gap?",
@@ -54,7 +52,6 @@ export default function FAQAccordion() {
         Policy & Research FAQ
       </h1>
       
-      {/* This section displays the list */}
       <div className="space-y-2">
         {healthEquityData.map((item, index) => (
           <FAQItem 

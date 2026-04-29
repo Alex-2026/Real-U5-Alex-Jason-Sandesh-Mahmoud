@@ -29,7 +29,8 @@ export default function Header() {
             Community Health Needs
           </Link>
           
-          {/* Action Steps Button */}
+          
+          
           <div className="my-2 border-t border-blue-200"></div>
           <Link 
             to="/action" 
@@ -48,7 +49,7 @@ export default function Header() {
            FAQ Accordion
           </Link>
 
-          {/* Future Outlook Button */}
+
           <div className="my-2 border-t border-blue-200"></div>
           <Link 
             to="/future" 
