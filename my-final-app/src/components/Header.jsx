@@ -48,6 +48,7 @@ export default function Header() {
           >
            FAQ Accordion
           </Link>
+          
 
 
           <div className="my-2 border-t border-blue-200"></div>
@@ -58,7 +59,18 @@ export default function Header() {
           >
             10-Year Future Outlook
           </Link>
+       
+       <div className="my-2 border-t border-gold-200"></div>
+          <Link 
+            to="/Methodology" 
+            onClick={() => setIsOpen(false)}
+            className="bg-white text-yellow-600 px-4 py-2 rounded-md font-semibold text-center hover:bg-purple-100 transition-colors"
+          >
+            Research Methodology
+          </Link>
+       
         </nav>
+
         
       )}
     </header>
