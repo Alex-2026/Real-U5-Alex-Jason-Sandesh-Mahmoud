@@ -1,4 +1,4 @@
-import FAQAccordion from "../components/FAQAccordion";
+import FAQAccordion from "./FAQAccordion";
 
 export default function Help() {
   return (

@@ -7,6 +7,7 @@ import Help from "./pages/Help";
 import CommunityHealthNeeds from "./pages/CommunityHealthNeeds"; 
 import Action from "./pages/Action"; 
 import Future from "./pages/Future";
+import FAQAccordion from "./pages/FAQAccordion"; // Your FAQ accordion component
 function App() {
   return (
     <BrowserRouter>
@@ -26,6 +27,7 @@ function App() {
             <Route path="/community-health-needs" element={<CommunityHealthNeeds />} />
             <Route path="/action" element={<Action />} />
             <Route path="/future" element={<Future />} />
+            <Route path="/FAQAccordion" element={<FAQAccordion />} />
           </Routes>
         </main>
 

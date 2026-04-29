@@ -1,5 +1,4 @@
 import ProfileCard from "../components/ProfileCard";
-import PaymentHistory from "../components/PaymentHistory";
 import ActionButton from "../components/ActionButton";
 
 export default function Profile() {
@@ -26,12 +25,6 @@ export default function Profile() {
           <p className="text-xs text-gray-400 uppercase font-bold tracking-widest">Contact Info</p>
           <p className="text-gray-800 font-medium">calmopabloalex@gmail.com</p>
         </div>
-
-        {/* 4. Parking History (Feature #1 from your planner) [cite: 13] */}
-        <PaymentHistory 
-          title="Parking History" 
-          details="3 active sessions this week in Lot B" 
-        />
 
         {/* 5. Account Actions */}
         <div className="px-4 space-y-2">
