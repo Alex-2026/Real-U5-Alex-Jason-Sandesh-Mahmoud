@@ -8,7 +8,7 @@ export default function Future() {
     {
       id: 1,
       title: "Funding Models",
-      content: "By 2030, our goal is to see 15% of the $3.8T national spend redirected toward community-based prevention and nonpartisan funding for local clinics.",
+      content: "By 2030, the goal is to see 15% of the $3.8T national spend redirected toward community-based prevention and nonpartisan funding for local clinics.",
       icon: "💰"
     },
     {
@@ -20,7 +20,7 @@ export default function Future() {
     {
       id: 3,
       title: "Housing & Air",
-      content: "Implementing AI-driven air quality monitoring and strict housing safety enforcement to close the 20-year longevity gap in urban centers.",
+      content: "Implementing better air quality, while monitoring and enforcing housing safety standards to close the 20-year longevity gap in urban centers.",
       icon: "🏠"
     }
   ];
@@ -78,7 +78,7 @@ export default function Future() {
       <div className="grid md:grid-cols-2 gap-6">
         <div className="p-6 bg-purple-50 rounded-2xl border border-purple-100">
           <h3 className="font-bold text-purple-900 mb-2">Target: Longevity Equality</h3>
-          <p className="text-sm text-purple-800">Reduction of the 20-year neighborhood life expectancy gap by 50% through targeted social determinant investments.</p>
+          <p className="text-sm text-purple-800">Reduction of the 20-year neighborhood life expectancy gap by 15%-50% through targeted social determinant investments.</p>
         </div>
         <div className="p-6 bg-gray-900 rounded-2xl border border-gray-800">
           <h3 className="font-bold text-white mb-2">Target: Economic Efficiency</h3>

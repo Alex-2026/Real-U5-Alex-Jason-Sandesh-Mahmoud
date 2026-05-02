@@ -14,16 +14,16 @@ export default function Profile() {
       <div className="max-w-md mx-auto space-y-6">
       
         <ProfileCard 
-          name="Alexandro" 
-          role="12th Grade Student" 
-          bio="Daily commuter. Priority: Lot A access."
-          image="https://via.placeholder.com/150" //replace with photos soon gang
+          name="USERNAME" 
+          role="Socially Conscious individual" 
+          bio="Put in Username and other info"
+          image="annony img.jpeg" //replace with photos soon gang
         />
 
 
         <div className="p-4 border rounded-lg mx-4 bg-white shadow-sm">
           <p className="text-xs text-gray-400 uppercase font-bold tracking-widest">Contact Info</p>
-          <p className="text-gray-800 font-medium">calmopabloalex@gmail.com</p>
+          <p className="text-gray-800 font-medium">annonymouspeoples@gmail.com</p>
         </div>
 
       

@@ -10,12 +10,12 @@ export default function Solutions() {
     {
       title: "Preventative Infrastructure",
       description: "Investing in community centers, grocery cooperatives, and green spaces.",
-      impact: "Reduces chronic disease rates by addressing environmental stressors."
+      impact: "Reduces chronic disease rates by addressing environmental sectors."
     },
     {
       title: "Telehealth Expansion",
-      description: "Subsidizing high-speed internet and hardware for low-income seniors.",
-      impact: "Bridges the gap for residents who lack transportation to major hospitals."
+      description: "Subsidizing high-speed internet and hardware for low-income individuals.",
+      impact: "Bridges the gap for residents who lack transportation and technology access to major hospitals."
     }
   ];
 

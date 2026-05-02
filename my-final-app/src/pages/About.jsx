@@ -10,24 +10,24 @@ export default function About() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           <ProfileCard 
-            name="Alex" role="Team Lead" 
-            bio="Project architecture and Git management."
-            image="https://via.placeholder.com/150" 
+            name="Alex" role="Project Manager" 
+            bio="Project management and Github management."
+            image="IMG_7664 2.JPEG" 
           />
           <ProfileCard 
-            name="Sandesh" role="Frontend Dev" 
+            name="Sandesh" role="Code Manager" 
             bio="UI components and Profile logic."
-            image="https://via.placeholder.com/150" 
+            image="IMG_2221.JPEG" 
           />
           <ProfileCard 
             name="Jason" role="Full Stack" 
             bio="Data integration and research features."
-            image="https://via.placeholder.com/150" 
+            image="4977C606-F87E-46B7-8BD5-CDAE7603480A.JPG" 
           />
           <ProfileCard 
             name="Mahmoud" role="UI/UX" 
             bio="User experience and styling consistency."
-            image="https://via.placeholder.com/150" 
+            image="A2EB2408-EECF-409C-AD1A-FA387BFD1F1E.JPG" 
           />
         </div>
 

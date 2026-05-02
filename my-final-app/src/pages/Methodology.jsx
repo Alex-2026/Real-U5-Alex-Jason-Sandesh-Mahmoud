@@ -44,7 +44,7 @@ export default function Methodology() {
           <h2 className="text-2xl font-bold text-gray-800 italic">Data Simulation</h2>
           <p className="text-sm text-gray-500 mb-4">
             Use the tool below to see how regional funding disparities affect 
-            predicted longevity in real-time.
+            (predicted) longevity in real-time.
           </p>
          <ZipSim />
         </div>
@@ -52,18 +52,17 @@ export default function Methodology() {
 
       {/* The Core Logic Section */}
       <section className="bg-white p-8 rounded-3xl border border-gray-100 shadow-xl">
-        <h3 className="text-xl font-bold mb-4">Why Zip Codes?</h3>
+        <h3 className="text-xl font-bold mb-4">Why we want to focus on Zip Codes?</h3>
         <p className="text-gray-600">
           Our methodology treats <b>Social Determinants of Health (SDOH)</b> as the 
           independent variable. Because government policy often ignores these 
           root causes, our model prioritizes environmental data (housing, education, 
-          and pollution) over individual genetic markers to explain the 
-          longevity divide.
+          and pollution) to explain the longevity divide.
         </p>
       </section>
 
       <footer className="text-center text-xs text-gray-400 pt-8">
-        Built by the Real-U5 Collaborative Development Team
+        Built by the Development Team (all 4) (Data is simulated off research articles, data, etc.).
       </footer>
     </div>
   );

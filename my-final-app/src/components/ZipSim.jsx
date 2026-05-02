@@ -12,7 +12,7 @@ export default function ZipSim() {
     setIsAnalyzing(true);
     setResult(null);
 
-    // Simulate a data fetch delay based on your research parameters
+    // Simulate a data fetch delay based on my research parameters
     setTimeout(() => {
       setIsAnalyzing(false);
       setResult({

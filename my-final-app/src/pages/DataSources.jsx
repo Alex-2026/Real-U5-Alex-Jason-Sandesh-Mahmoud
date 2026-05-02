@@ -32,21 +32,21 @@ export default function DataSources() {
       author: "TFAH Research Team",
       year: "2024",
       description: "This study provided the foundation for our 20-year longevity gap metrics. It highlights how underfunded public health infrastructure leads to avoidable health disparities.",
-      link: "https://www.tfah.org"
+      link: "https://www.tfah.org/issue-details/health-equity/#:~:text=Research%20shows%20that%20a%20person%E2%80%99s,as%20much%20as%2020%20years."
     },
     {
       title: "Regional Variation in Medicare Expenditures",
       author: "Alan M. Garber & Jonathan Skinner",
       year: "2008",
       description: "Our 'Equity Score' is powered by this research, which identified the $5,600 vs $14,000 regional spending gap (Salem vs. Miami). It proves that spending more doesn't always yield better outcomes.",
-      link: "https://www.nber.org/papers/w14203"
+      link: "https://www.aeaweb.org/articles?id=10.1257/jep.22.4.27"
     },
     {
       title: "Social Determinants of Health (SDOH) Data",
-      author: "Centers for Disease Control (CDC)",
-      year: "2023",
-      description: "We used CDC metrics to determine which Zip Codes face higher risks due to environmental factors, housing stability, and education access.",
-      link: "https://www.cdc.gov/about/sdoh"
+      author: "Cynthia A. Gómez, et al.",
+      year: "2021",
+      description: "Pivots from individual behavior to structural barriers like poverty, housing, and education.",
+      link: "https://journals.lww.com/jphmp/fulltext/2021/11001/addressing_health_equity_and_social_determinants.9.aspx"
     }
   ];
 
@@ -58,7 +58,7 @@ export default function DataSources() {
         </h1>
         <p className="text-gray-500 max-w-2xl mx-auto">
           Our Zip Code Equity Analyzer and Spending Toggle use a simulation model 
-          triangulated from the following peer-reviewed sources and databases.
+           from the following peer-reviewed sources and databases.
         </p>
       </header>
 
@@ -81,7 +81,7 @@ export default function DataSources() {
           <p>
             <b>Simulation Logic:</b> While our tool simulates data based on the 
             Zip Code you enter, the ranges (65-85 years) are strictly confined to 
-            the statistical realities found in the TFAH and CDC reports.
+            the statistics found in the TFAH and CDC reports.
           </p>
         </div>
       </div>

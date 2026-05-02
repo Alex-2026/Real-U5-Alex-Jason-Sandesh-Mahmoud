@@ -33,7 +33,7 @@ export default function Economics() {
             Our research shows that a significant portion of this <b>$3.8 trillion</b> is spent on treating chronic diseases that could have been prevented with earlier intervention and better community health equity.
           </p>
           <p>
-            By redirecting even a small percentage of this spending toward social determinants of health—like housing, nutrition, and clean environments—we can close the longevity gap while actually reducing total costs.
+            By redirecting even a small percentage of this spending toward social determinants of health like housing, nutrition, and clean environments we can close the longevity gap while actually reducing total costs.
           </p>
         </div>
       </section>
