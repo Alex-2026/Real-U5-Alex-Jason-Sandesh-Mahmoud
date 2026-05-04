@@ -34,7 +34,7 @@ export default function FAQAccordion() {
   const healthEquityData = [
     {
       question: "Why is there a 20-year longevity gap?",
-      answer: "As noted in your research, this gap is a direct result of underfunding that has weakened public health infrastructure. Social Determinants of Health (SDOH) are the primary drivers of these disparities."
+      answer: "As noted our research, this gap is a direct result of underfunding that has weakened public health infrastructure. Social Determinants of Health (SDOH) are the primary drivers of these disparities."
     },
     {
       question: "How does political polarization affect healthcare?",

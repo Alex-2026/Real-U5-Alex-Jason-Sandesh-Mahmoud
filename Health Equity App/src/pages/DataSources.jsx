@@ -77,11 +77,26 @@ export default function DataSources() {
             referenced as a baseline for all national comparisons. Our software 
             calculates the "Outcome Gap" by dividing this national spend by 
             regional life expectancy averages.
+            <a 
+              href="https://www.healthaffairs.org/content/forefront/i-health-affairs-i-national-health-spending-2019"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              View Study →
+            </a>
           </p>
           <p>
             <b>Simulation Logic:</b> While our tool simulates data based on the 
             Zip Code you enter, the ranges (65-85 years) are strictly confined to 
             the statistics found in the TFAH and CDC reports.
+            <a href="https://www.cdc.gov/nchs/hus/topics/health-care-expenditures.htm"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline"
+            >
+              View CDC Data →
+            </a>
           </p>
         </div>
       </div>
