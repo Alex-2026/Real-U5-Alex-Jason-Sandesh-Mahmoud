@@ -15,7 +15,7 @@ import Longevity from "./pages/Longevity";
 import Solutions from "./pages/Solutions";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Real-U5-Alex-Jason-Sandesh-Mahmoud/">
 
       <div className="min-h-screen bg-gray-50 flex flex-col">
         
